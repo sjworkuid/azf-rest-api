@@ -1,7 +1,12 @@
 {
-    "type": "eventHubTrigger",
-    "name": "msg",
-    "direction": "in",
-    "path": "iothub-ehub-miye-iothu-452572-ae4404ddcc",
-    "connection": "miye-iothub2-connection"
-}
+    "disabled": false,
+    "bindings": [
+        {
+            "type": "eventHubTrigger",
+            "name": "msg",
+            "direction": "in",
+            "path": "iothub-ehub-miye-iothu-452572-ae4404ddcc",
+            "connection": "miye-iothub2-connection"
+        }
+    ]
+  }
